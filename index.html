@@ -1,112 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./index.css">
+
     <title>Shadi</title>
 </head>
+
 <body class="body">
     <div class="banner row">
-<div class="topNav">
-    <img class="navLogo" src="./assets/Matrimony-Service-by-Shaadi.com.png" alt="logo">
-    <div class="navRight">
-        <a class="a" href="">Login <i class="fa fa-angle-down"></i></a>
-        <a class="a" href=""><span class="helpIcon"></span> Help<span class="fa fa-angle-down"></span></a>
-    </div>
-</div> 
-<div class="container">
-    
-    <h1 class="commonHead">The World's No.1 Matchmaking Service</h1>
-    <div class="subHead">Search by City, Profession & Community</div>
+        <div class="topNav">
+            <img class="navLogo" src="./assets/Matrimony-Service-by-Shaadi.com.png" alt="logo">
+            <div class="navRight">
+                <a class="a" href="">Login <i class="fa fa-angle-down"></i></a>
+                <a class="a" href=""><span class="helpIcon"></span> Help<span class="fa fa-angle-down"></span></a>
+            </div>
+        </div>
+        <div class="container">
 
-<div class="formWrapper">
-    <form class="form" action="action.php">
-        <div class="form-row">
-            <div class="col2">
-                <label class="choices" for="looking for">I'm Looking for a </label>
-                <select class="selectbox" name="lookingfor" id="lookingfor">
+            <h1 class="commonHead">The World's No.1 Matchmaking Service</h1>
+            <div class="subHead">Search by City, Profession & Community</div>
+
+            <div class="formWrapper">
+                <form class="form" action="action.php">
+                    <div class="form-row">
+                        <div class="col2">
+                            <label class="choices" for="looking for">I'm Looking for a </label>
+                            <select class="selectbox" name="lookingfor" id="lookingfor">
                     <option value="Woman">Woman</option>
                     <option value="Man">Man</option>
-                </select>                                           
-                <!-- <div class="border"> 
+                </select>
+                            <!-- <div class="border"> 
 
                 </div>-->
-            </div>
-            <div class="col2">
-                <label class="choices" for="age">Aged</label>
-                <div class="age">
-                    <div class="ageContent">
-                        <select class="selectbox" name="age" id="age">
-                            <option value="18">18</option>
-                            <option value="19">19</option>
-                            <option value="18">20</option>
-                            <option value="18">21</option>
-                            <option value="18">22</option>
-                            <option value="18">23</option>
-                            <option value="18">24</option>
-                            <option value="18">25</option>
-                            <option value="18">26</option>
-                            <option value="18">27</option>
-                            <option value="18">28</option>
-                            <option value="18">29</option>
-                            <option value="18">30</option>
-                            <option value="18">31</option>
-                        </select></div>
-                        <div class="to">to</div>
-                            <select class="selectbox" name="age" id="age">
-                                <option value="19">19</option>
-                                <option value="18">20</option>
-                                <option value="18">21</option>
-                                <option value="18">22</option>
-                                <option value="18">23</option>
-                                <option value="18">24</option>
-                                <option value="18">25</option>
-                                <option value="18">26</option>
-                                <option value="18">27</option>
-                                <option value="18">28</option>
-                                <option value="18">29</option>
-                                <option value="18">30</option>
-                                <option value="18">31</option>
-                                <option value="18">32</option>
-                            </select>
-                        
-                    
-                </div>
-            </div>
-            <div class="col2">
-                <label class="choices" for="Religion">of religion</label>
-                <select class="selectbox" name="religion" id="religion">
+                        </div>
+                        <div class="col4">
+                            <label class="choices" for="age">Aged</label>
+                            <div class="age">
+                                <select class="selectbox" name="age" id="age">
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="18">20</option>
+                        <option value="18">21</option>
+                        <option value="18">22</option>
+                    </select>
+                                <div class="to">to</div>
+                                <select class="selectbox" name="age" id="age">
+                        <option value="19">19</option>
+                        <option value="18">20</option>
+                        <option value="18">21</option>
+                        <option value="18">22</option>
+                        <option value="18">23</option>
+                        <option value="18">24</option>
+                        <option value="18">25</option>
+                        <option value="18">26</option>
+                        <option value="18">27</option>
+                        <option value="18">28</option>
+                        <option value="18">29</option>
+                        <option value="18">30</option>
+                        <option value="18">31</option>
+                        <option value="18">32</option>
+                    </select>
+                            </div>
+                        </div>
+                        <div class="col2">
+                            <label class="choices" for="Religion">of religion</label>
+                            <select class="selectbox" name="religion" id="religion">
                     <option value="select">Select</option>
                     <option value="Hindu">Hindu</option>
                     <option value="Hindu">Jain</option>
                     <option value="Hindu">Sikh</option>
                     <option value="Hindu">Parsi</option>
-                    <option value="Hindu">Atheist</option>
-                    <option value="Hindu">Spritual</option>
-                    <option value="Hindu">Christian</option>
-                    <option value="Hindu">Muslim</option>
-                </select>   
-                <div class="col2">
-                    <label class="choices" for="motherTongue">and mother tongue</label>
-                    <select class="selectbox" name="motherTongue" id="motherTongue">
-                        <option value="select">Select</option>
-                        <div >Freuently Selected</div>
-                        <option value="select">Hindi</option>
-                        <option value="select">English</option>
-                        <option value="select">Bengali</option>
-                        <option value="select">Urdu</option>
-                    </select>
-                    
-                </div>  
-                <button class="button">Let's Begin</button>   
+                </select>
+                        </div>
+                        <div class="col2">
+                            <label class="choices" for="motherTongue">and mother tongue</label>
+                            <select class="selectbox" name="motherTongue" id="motherTongue">
+                <option value="select">Select</option>
+                <div >Freuently Selected</div>
+                <option value="select">Hindi</option>
+                <option value="select">English</option>
+                <option value="select">Bengali</option>
+                <option value="select">Urdu</option>
+            </select>
+
+                        </div>
+                        <div class="col2">
+                            <button class="button mt-5">Let's Begin</button>
+                        </div>
+
+                </form>
+                </div>
+            </div>
         </div>
-        
-    </form>
-</div>
-</div>
-    </div>  
+    </div>
+    <div class="container">
+        <h1 class="find">Find Your Special Someone</h1>
+    </div>
+    <div class="container row">
+        <div class="col4">                                          
+            <a class="signupIcon" href=""></a>
+            <div class="text-center">
+                <a class="iconText" href="">SignUp</a>
+                <div class="iconSubText">Register for free & put up your Matrimony Profile</div>
+            </div>
+
+        </div>
+        <div class="col4">
+            <a class="connectIcon" href=""></a>
+            <div class="text-center">
+            <a class="iconText" href="">Connect</a>
+            <div class="iconSubText">Select & Connect with Matches you like</div>
+            </div>
+        </div>
+        <div class="col4">
+            <a class="interactIcon" href=""></a>
+            <div class="text-center">
+                <a class="iconText" href="">Interact</a>
+                <div class="iconSubText">Become a Premium Member & Start a Conversation</div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <h2 class="find success">6 Million Success Stories & Counting</h2>
+    </div>
 </body>
+
 </html>
